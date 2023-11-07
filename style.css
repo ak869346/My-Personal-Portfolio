@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #080808;
+    background-color: #000000;
     color: #fff;
     overflow-x: hidden;
 }
@@ -373,6 +373,11 @@ nav .ank {
 @media only screen and (max-width:600px) {
         #header {
             background-image: url(images/back1.png);
+        }
+
+        #sidemenu {
+            height: 300px;
+            width: 200px;
         }
 
         .header-text {
