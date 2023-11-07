@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/aklogo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark ank" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars ank" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi I am <span>Ankit Kumar</span><br>from Bangalore.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------About Section ----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img12.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Ankit Kumar having skills like Java, HTML , CSS , JavaScript , React JS, Node JS , Mongo
+                        DB , SQL , Git & GitHub , OOPS , Data Structure & Algorithm using Java.</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                        <div class="tab-links" onclick="opentab('projects')">Projects</div>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Langauge</span><br>Java<br> Data Structure & Algorithms using Java
+                            </li>
+                            <li><span>FrontEnd technologies & Frameworks</span><br>HTML,CSS,JavaScript,React.js</li>
+                            <li><span>Backend technologies</span><br>Node.js,Express js</li>
+                            <li><span>Database technologies</span><br>MongoDb,SQL</li>
+                            <li><span>Version Control System</span><br>Git & GitHub</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2022</span><br>B-tech with EEE from Lakshmi Narain College of Technology,
+                                Bhopal<br> Marks - 8.7 CGPA</li>
+                            <li><span>2018</span><br>Intermediate from Anjabit Singh College, Bikramganj , Rohtas ,
+                                Bihar<br> Marks - 67%
+                            </li>
+                            <li><span>2015</span><br>Matriculation from Children Garden School, Bhabhua , Kaimur ,
+                                Bihar<br> Marks - 10
+                                CGPA</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Personal Portfolio</span><br>A portfolio website is a unique way to showcase your
+                                work and let others know about yourself. It’s like an evergreen platform for your
+                                projects, case studies, and information about you. In addition, it’s one of the best
+                                ways to express your personality, experience, and capabilities. <b>HTML , CSS ,
+                                    JavaScript</b></li>
+                            <li><span>Fantasy Cricket Website</span><br>A Fantasy Cricket Platform website which
+                                provides details about fantasy cricket like pitch report,
+                                current form of players, Stats of players, Head-to-Head data and daily fantasy team.
+                                <b>HTML,CSS JavaScript</b>
+                            </li>
+                            <li><span>Dance Academy Website</span><br>A Website for Dance academy having all the details
+                                of academy which a Person can fill to reach
+                                out or contact to academy. <b>HTML, CSS, Javascript, Node.js, MongoDB</b></li>
+                            <li><span>Real Time Chat Application</span><br>A real time chat application on which
+                                multiple users can chat at a time. <b>HTML, CSS, Javascript, Node.js</b></li>
+                            <li><span>News App</span><br>This is news app which fetch all the news from news Api and
+                                show all the news to users. <b>React.js</b></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Services------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Project Details</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Personal Portfolio</h2>
+                    <p>Personal Portfolio</span><br>A portfolio website is a unique way to showcase your
+                        work and let others know about yourself. It’s like an evergreen platform for your
+                        projects, case studies, and information about you. In addition, it’s one of the best
+                        ways to express your personality, experience, and capabilities.<br><b>Technology Stack : HTML |
+                            CSS | JavaScript</b> <br><b>Tools - VSCODE</b></p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>News App</h2>
+                    <p>This is news app which fetch all the news from news Api and
+                        show all the news to users. <br><b>Technology Stack - CSS | React.JS | JavaScript | Node.JS <br>
+                            Tools - VSCODE</b></p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Dance Academy Website</h2>
+                    <p>A Website for Dance academy having all the details
+                        of academy which a Person can fill to reach
+                        out or contact to academy. <br> <b>Technology Stack - HTML | CSS | JavaScript | Node.JS |
+                            MongoDB <br> Tools - VSCODE</b></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------Portfolio------------------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img4.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Oxkart (SupplyChain & Logistics)</h3>
+                        <p>Oxkart is a supply chain & Logistics based agriculture startup which aggregrate fresh fruits
+                            & Vegetables directly from the farmer and supply it to the enduser.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img5.jpeg" alt="">
+                    <div class="layer">
+                        <h3> Saadhya Foundation </h3>
+                        <p> A non profitable organisation which runs to donate foods to needy in the slums area.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img6.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Apexy Technology</h3>
+                        <p>I have created an official website for this company and hosted or deployed successfully using
+                            hostinger.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ------------------------Contact------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Let's contact each other.</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> annkitkr18@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 7050001010</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/ak869346"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/annkit_kr/"><iconify-icon
+                                icon="simple-icons:leetcode"></iconify-icon></a>
+                        <a href="https://www.linkedin.com/in/ankitkumar1010/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/ankit_kr.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="tel" name="Number" placeholder="Your Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Ankit kumar Made by me.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- -------------------Navbar Fixed-------------------------------- -->
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwA1oggsegq76TtRKYkqWXml92u45jhQWPqrzjK0CVBHJw4a9gyeiYYt25hcMd-3ZZm/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
