@@ -423,6 +423,9 @@ nav .ank {
         .about-col-1 {
             margin-bottom: 30px;
         }
+        .about-col-2 {
+            font-size: 16px;
+        }
 
         .contact-left,.contact-right {
             flex-basis: 100%;
