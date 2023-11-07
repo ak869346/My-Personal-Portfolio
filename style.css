@@ -424,7 +424,12 @@ nav .ank {
             margin-bottom: 30px;
         }
         .about-col-2 {
+            font-size: 14px;
+        }
+
+        .tab-links {
             font-size: 16px;
+            margin-right: 20px;
         }
 
         .contact-left,.contact-right {
