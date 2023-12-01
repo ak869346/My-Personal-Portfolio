@@ -373,6 +373,8 @@ nav .ank {
 @media only screen and (max-width:600px) {
         #header {
             background-image: url(images/img12.jpg);
+            width: 80%;
+            margin-left: 40px;
         }
 
         #sidemenu {
