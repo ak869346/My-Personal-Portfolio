@@ -7,6 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
@@ -23,7 +24,7 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark ank" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars ank" onclick="openmenu()"></i>
+                <i class="fa fa-user" aria-hidden="true" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Software Engineer</p>
@@ -40,28 +41,61 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am Ankit Kumar having skills like Java, HTML , CSS , JavaScript , React JS, Node JS , Mongo
-                        DB , SQL , Git & GitHub , OOPS , Data Structure & Algorithm using Java.</p>
+                    <p>Myself Ankit Kumar with 1+ Years of Experience HTML, CSS , JavaScript, Node JS , MongoDB.
+                        I have a deep passion for creating robust, scalable, and user-friendly solutions. With a solid
+                        foundation in both front-end and back-end technologies, I thrive on turning complex problems
+                        into elegant, efficient, an intuitive software.
+                        <br>
+                        ✨ Languages : - Java , JavaScript , NodeJS.
+                        <br>
+                        ✨Web Technology - HTML , CSS
+                        <br>
+                        ✨Frameworks - Bootstrap , React JS , Express JS
+                        <br>
+                        ✨Database - MongoDB, SQL
+                        <br>
+                        ✨Version Control - Git & GitHub
+                        <br>
+                        ✨Strong Knowledge of DSA (https://leetcode.com/annkit_kr/)
+                        <br>
+                        I'm always open to new opportunities, collaborations, and discussions. Whether you're looking to
+                        discuss tech trends, explore potential collaborations, or just connect, feel free to reach out.
+                        Let's build something great together!
+                    </p>
 
                     <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('obj')">Career Objective</div>
                         <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
                         <div class="tab-links" onclick="opentab('education')">Education</div>
                         <div class="tab-links" onclick="opentab('projects')">Projects</div>
                         <div class="tab-links" onclick="opentab('experience')">Experience</div>
                     </div>
 
+                    <div class="tab-contents active-tab" id="obj">
+                        <p>My objective is to be an integral part of a forward-thinking company, leveraging my
+                            experience to drive
+                            impactful results, faster innovation, and continue my professional development. Aiming for a
+                            role that
+                            encourages continuous learning, growth, and the opportunity to make a significant impact on
+                            organizational
+                            objectives. I am poised to take my career to new heights by embracing challenging roles that
+                            demand
+                            innovation, creativity, and technical excellence</p>
+                    </div>
+
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>Programming Langauge</span><br>Java<br> Data Structure & Algorithms using Java
                             </li>
-                            <li><span>FrontEnd technologies & Frameworks</span><br>HTML,CSS,JavaScript,Bootstrap,React.js</li>
+                            <li><span>FrontEnd technologies &
+                                    Frameworks</span><br>HTML,CSS,JavaScript,Bootstrap,React.js</li>
                             <li><span>Backend technologies</span><br>Node.js,Express js</li>
                             <li><span>Database technologies</span><br>MongoDb,SQL</li>
                             <li><span>Version Control System</span><br>Git & GitHub</li>
-                            <li><span>Soft Skills</span><br>Book Reading , Watching Podcast and Cricket , Leading Team</li>
+                            <li><span>Soft Skills</span><br>Book Reading , Watching Podcast and Cricket , Leading Team
+                            </li>
                         </ul>
                     </div>
-
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2018-2022</span><br>B-tech with EEE from Lakshmi Narain College of Technology,
@@ -99,8 +133,10 @@
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Apexy Technology , Bhopal (Nov - 2022 to Current)</span><br>I am working at Apexy Technology as a role of Software Engineer from November 2022.
-                                I work mostly in Web Development Domain using Technology <b>HTML, CSS , JS , Nodejs, MongoDB, SQL, GIT & Github</b>
+                            <li><span>Apexy Technology , Bhopal (Nov - 2022 to Current)</span><br>I am working at Apexy
+                                Technology as a role of Software Engineer from November 2022.
+                                I work mostly in Web Development Domain using Technology <b>HTML, CSS , JS , Nodejs,
+                                    MongoDB, SQL, GIT & Github</b>
                             </li>
                         </ul>
                     </div>
@@ -124,7 +160,8 @@
                         projects, case studies, and information about you. In addition, it’s one of the best
                         ways to express your personality, experience, and capabilities.<br><b>Technology Stack : HTML |
                             CSS | JavaScript</b> <br><b>Tools - VSCODE</b></p>
-                    <a href="#">Learn more</a>
+                    <a href="https://ak869346.github.io/My-Personal-Portfolio/" target="_blank"><button type="button"
+                            class="btn btn-primary">View Project</button></a>
                 </div>
 
                 <div>
@@ -132,7 +169,8 @@
                     <p>This is news app which fetch all the news from news Api and
                         show all the news to users. <br><b>Technology Stack - CSS | React.JS | JavaScript | Node.JS <br>
                             Tools - VSCODE</b></p>
-                    <a href="#">Learn more</a>
+                    <a href="https://github.com/ak869346/NewsApp" target="_blank"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
                 </div>
 
                 <div>
@@ -141,7 +179,48 @@
                         of academy which a Person can fill to reach
                         out or contact to academy. <br> <b>Technology Stack - HTML | CSS | JavaScript | Node.JS |
                             MongoDB <br> Tools - VSCODE</b></p>
-                    <a href="#">Learn more</a>
+                    <a href="https://github.com/ak869346/Dance-Website" target="_blank"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd Container -->
+        <div class="container">
+            <!-- <h1 class="sub-title">Project Details</h1> -->
+            <div class="services-list">
+                <div>
+                    <h2>Spotify Clone</h2>
+                    <p>Developed a feature-rich Spotify clone, a music streaming platform,
+                        to replicate the core functionalities and user experience of the popular music service. Utilized
+                        a modern tech stack comprising HTML,CSS,JavaScript to build a scalable
+                        and responsive application.<br><b>Technology Stack : HTML |
+                            CSS | JavaScript</b><br><b>Tools - VSCODE</b></p>
+                    <a href="https://ak869346.github.io/Spotify-Clone/" target="_blank"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
+                </div>
+
+                <div>
+                    <h2>Amazon Clone</h2>
+                    <p>Designed and developed a full-scale Amazon clone, a comprehensive e-commerce platform, to
+                        replicate the functionality and user experience of the world's leading online marketplace.
+                        Leveraged a tech stack comprising HTML5, CSS3, and JavaScript to implement a
+                        robust and scalable solution.<br><b>Technology Stack - HTML | CSS | JavaScript
+                            <br>
+                            Tools - VSCODE</b></p>
+                    <a href="https://github.com/ak869346/Amazon-clone" target="_blank"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
+                </div>
+
+                <div>
+                    <h2>Youtube Clone</h2>
+                    <p>Develope a comprehensive YouTube clone, a video-sharing platform, aimed at
+                        replicating the core functionalities and user experience of the popular video service. Employed
+                        a modern tech stack including HTML,CSS,JavaScript to create a scalable
+                        and feature-rich application.<br> <b>Technology Stack - HTML | CSS | JavaScript <br> Tools -
+                            VSCODE</b></p>
+                    <a href="https://ak869346.github.io/Youtube-wala/"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
                 </div>
             </div>
         </div>
@@ -272,6 +351,7 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 </body>
 
 </html>
